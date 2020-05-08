@@ -9,6 +9,7 @@ from sklearn.cluster import KMeans
 # 首先要运行bert_client，开启bert服务
 
 # 词向量降维在坐标系中展示
+# 用matplotlib.pyplot作图
 
 data = []
 # 体育
@@ -110,6 +111,8 @@ print(type(X_new))
 # plt.scatter(X_new[:, 0], X_new[:, 1], marker='o')
 # plt.show()
 
+
+# 作k-means聚类
 clf = KMeans(n_clusters=4)
 s = clf.fit_predict(X_new)
 print(clf.labels_)

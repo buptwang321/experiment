@@ -1,12 +1,15 @@
 import jieba.analyse
 
+
+# 计算文本关键词并存储
+# 原文本
 finance = "finance/finance_all.txt"
 game = "game/game_all.txt"
 house = "house/house_all.txt"
 sports = "sports/sports_all.txt"
 tech = "tech/tech_all.txt"
 edu = "edu/edu_all.txt"
-
+# 存储关键词
 finance_key = "finance/finance_key2.txt"
 game_key = "game/game_key2.txt"
 house_key = "house/house_key2.txt"

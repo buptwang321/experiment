@@ -1,3 +1,4 @@
+# thucnews数据集的预处理，选取部分文本进行实验
 file = "recommendation/recommend.txt"
 file_test = "recommendation/test_all.txt"
 test_sports = "recommendation/test_sports.txt"
@@ -21,7 +22,7 @@ def cal(f, label):
     f_w = open(f, 'w')
     cont = f_r.readline()
     count = 0
-    while cont and count < 100:
+    while cont and count < 1000:
         temp = cont.split('\t')
         if temp[0] == label:
             f_w.write(temp[1])

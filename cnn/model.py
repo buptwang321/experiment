@@ -5,6 +5,7 @@ from torch.autograd import Variable
 import cnn.emmbedding as emmbedding
 
 
+# 初始化cnn网络并返回对应参数的网络模型
 class CNN_Text(nn.Module):
 
     def __init__(self, args):

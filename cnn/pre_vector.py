@@ -1,4 +1,4 @@
-import config
+import cnn.config as config
 cnn = config.CNN()
 
 path = 'data/vocab.txt'

@@ -1,6 +1,7 @@
 import jieba
 
 
+# 进行文本识别前的文本预处理
 def predict(text):
     f = open('./cnn/data/vocab.txt', 'r')
     stopwords = [line.strip() for line in open('./cnn/data/stopwords.txt', encoding='UTF-8').readlines()]

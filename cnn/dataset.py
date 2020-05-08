@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 
 
+# 数据集处理，得到数据集对应iter，在训练好的网络进行识别时也需要此步骤
 def split_val():
     train_data = pd.read_csv('data/train_csv.csv')
     train, val = train_test_split(train_data, test_size=0.2)
@@ -24,6 +25,7 @@ def get_field():
     return text_field, label_field
 
 
+# 主要函数
 def get_iter():
     text_field = data.Field(use_vocab=False, sequential=True, tokenize=to_int, pad_token=0)
     label_field = data.Field(use_vocab=False, sequential=False)

@@ -1,7 +1,7 @@
 from bert_serving.client import BertClient
 import time
 import numpy as np
-
+# 测试bert运行时间
 def cos_sim(vector_a, vector_b):
     """
     计算两个向量之间的余弦相似度

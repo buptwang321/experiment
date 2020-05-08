@@ -14,8 +14,6 @@ edu = "edu/edu"
 
 
 # 计算每种类型用户的总关键词，并保存bert向量
-
-
 def key(sentence, k):
     keywords1 = jieba.analyse.extract_tags(sentence, topK=20, withWeight=True, allowPOS=('n', 'nr', 'ns'))
     keywords2 = jieba.analyse.textrank(sentence, topK=20, withWeight=True, allowPOS=('n', 'nr', 'ns'))

@@ -7,7 +7,6 @@ print(f)
 ff = open(f_r, 'r')
 ff_all = open(f_all, 'w')
 
-# 188， 200
 
 count = 0
 count_temp = 0

@@ -1,6 +1,7 @@
 import jieba.analyse
 
 
+# thucnews数据集提取关键词
 def key(sentence, k):
     keywords1 = jieba.analyse.extract_tags(sentence, topK=20, withWeight=True, allowPOS=('n', 'nr', 'ns'))
     keywords2 = jieba.analyse.textrank(sentence, topK=20, withWeight=True, allowPOS=('n', 'nr', 'ns'))

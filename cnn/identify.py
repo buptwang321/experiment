@@ -7,6 +7,8 @@ import cnn.dataset as dataset
 import cnn.config as config
 import cnn.predict as predict
 
+# 调用train.py中的不同函数用于训练、测试等
+
 # path = '/Users/yukang/Desktop/Django-2.2.5/testdj/cnn/data/save/snapshot/2019-10-31_13-41-31/best_steps_6800.pt'
 path = '/Users/yukang/Desktop/weibo/pre/cnn/data/save/bert_cnn.pt'
 args = config.CNN()
@@ -14,6 +16,7 @@ cnn = model.CNN_Text(args)
 cnn.load_state_dict(torch.load(path))
 # print(args.embed_dim)
 # print(args.embed_num)
+# 训练的中间结果保存路径
 args.save_dir = os.path.join(args.save_dir, datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S'))
 # print(args.save_dir)
 
@@ -23,7 +26,7 @@ args.save_dir = os.path.join(args.save_dir, datetime.datetime.now().strftime('%Y
 # print("训练完成！***********************************************************")
 # train.eval(test_iter, cnn, args)
 # print(type(cnn))
-#train.eval(test_iter, cnn, args)
+# train.eval(test_iter, cnn, args)
 
 text_field, label_field = dataset.get_field()
 # label = train.predict(predict.predict(args.predict), cnn, text_field, label_field, args.cuda)

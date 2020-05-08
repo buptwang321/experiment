@@ -1,3 +1,5 @@
+# 将不同种类文本切分开来，模拟用户的文本数据
+# pre_edu，类似py文件都是此功能
 f_r = 'jiaoyu.txt'
 user = 1
 name = 'edu/edu' + str(user)
@@ -7,7 +9,6 @@ print(f)
 ff = open(f_r, 'r')
 ff_all = open(f_all, 'w')
 
-# 194， 200
 
 # 82.17
 

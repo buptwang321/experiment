@@ -1,6 +1,13 @@
 import numpy as np
 
 
+# 文本推荐实验
+# 结合了cnn识别准确率和bert关键词向量分类准确率
+# 通过比对用户文本关键词词向量（今日头条）和待推荐文本关键词词向量（thucnews）
+# 待推荐文本分类已知，用户偏好假设已知
+# 通过加权计算，此处算法为：如果cnn分类最高类别正确率低于60%，则进行bert分类加权相加，权值1：1
+# 可以对最终加权计算方法进行改进
+
 def cos_sim(vector_a, vector_b):
     # 计算向量a，b
     vector_a = np.mat(vector_a)

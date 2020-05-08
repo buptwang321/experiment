@@ -5,6 +5,7 @@ import torch.autograd as autograd
 import torch.nn.functional as F
 
 
+# 训练网络
 def train(train_iter, dev_iter, model, args):
     if args.cuda:
         model.cuda()
@@ -58,6 +59,7 @@ def train(train_iter, dev_iter, model, args):
                 save(model, args.save_dir, 'snapshot', steps)
 
 
+# 验证集
 def eval(data_iter, model, args):
     model.eval()
     corrects, avg_loss = 0, 0
@@ -84,6 +86,7 @@ def eval(data_iter, model, args):
     return accuracy
 
 
+# 测试集
 def predict(text, model, text_field, label_feild, cuda_flag):
     assert isinstance(text, str)
     model.eval()
@@ -103,6 +106,7 @@ def predict(text, model, text_field, label_feild, cuda_flag):
     return predicted
 
 
+# 存储训练网络时的中间结果
 def save(model, save_dir, save_prefix, steps):
     if not os.path.isdir(save_dir):
         os.makedirs(save_dir)

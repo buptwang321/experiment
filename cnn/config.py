@@ -1,3 +1,5 @@
+# 配置文件
+
 class CNN():
     def __init__(self):
         self.embed_num = 126866

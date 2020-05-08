@@ -1,3 +1,5 @@
+# 序号表示每种分类
+# 最开始的预处理，将不同种类文本存到不同txt文件内
 file = "toutiao_cat_data.txt"
 f1 = "tiyu.txt"  # 103
 f2 = "caijing.txt"  # 104
@@ -16,6 +18,7 @@ ff6 = open(f6, "w")
 f = open(file, 'r')
 cont1 = f.readline()
 count = 0
+# 计数
 a1, a2, a3, a4, a5, a6 = 0, 0, 0, 0, 0, 0
 while cont1:
     cont = cont1.split('_!_')

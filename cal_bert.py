@@ -14,13 +14,14 @@ def cos_sim(vector_a, vector_b):
     return sim
 
 
+# 存储的每个种类别的关键词
 finance_key = "finance/finance_key2.txt"
 game_key = "game/game_key2.txt"
 house_key = "house/house_key2.txt"
 sports_key = "sports/sports_key2.txt"
 tech_key = "tech/tech_key2.txt"
 edu_key = "edu/edu_key2.txt"
-
+# 存储每个类别关键词bert词向量（两个下划线，多打了一个。。）
 finance_bert = "finance/finance__bert.npy"
 game_bert = "game/game__bert.npy"
 house_bert = "house/house__bert.npy"
@@ -29,6 +30,7 @@ tech_bert = "tech/tech__bert.npy"
 edu_bert = "edu/edu__bert.npy"
 
 
+# 计算bert词向量并存储
 def cal(file, f_bert):
     f_r = open(file, 'r')
     cont = f_r.readline()
@@ -41,6 +43,7 @@ def cal(file, f_bert):
     print("finish", f_bert)
 
 
+# 开启bert服务
 bc = BertClient()
 cal(finance_key, finance_bert)
 cal(game_key, game_bert)

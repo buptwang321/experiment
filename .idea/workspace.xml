@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655cadcd-5462-4fe7-b20e-5f610e2f9ae4" name="Default Changelist" comment="" />
+    <list default="true" id="655cadcd-5462-4fe7-b20e-5f610e2f9ae4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cal_bert.py" beforeDir="false" afterPath="$PROJECT_DIR$/cal_bert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/identify.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/identify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/pre.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/pre.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/pre_vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/pre_vector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/findkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/findkey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/identify.py" beforeDir="false" afterPath="$PROJECT_DIR$/identify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_edu.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_edu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_finance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_house.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_house.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_sports.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_sports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_tech.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_tech.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommend.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/find_test_key.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/find_test_key.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cal.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textrank/ceshi.py" beforeDir="false" afterPath="$PROJECT_DIR$/textrank/ceshi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textrank/test_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/textrank/test_pca.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +42,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZvxaftsAxIngP6RjzgAs5OEUC9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +54,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -177,6 +210,8 @@
       <workItem from="1585991843295" duration="228000" />
       <workItem from="1586025680566" duration="4707000" />
       <workItem from="1588750356484" duration="620000" />
+      <workItem from="1588763258680" duration="4561000" />
+      <workItem from="1588924308654" duration="804000" />
     </task>
     <servers />
   </component>

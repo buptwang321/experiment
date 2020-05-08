@@ -1,4 +1,5 @@
 import jieba
+# 数据预处理，去停止词等
 train = 'cnews/cnews.train.txt'
 test = 'cnews/cnews.test.txt'
 count = 0
@@ -36,6 +37,7 @@ with open(train, 'r', encoding='utf8') as f1:
         w = " ".join(res)
         fo_train.write(w)
         fo_all.write(w)
+
 
 with open(test, 'r', encoding='utf8') as f2:
     cont = True
